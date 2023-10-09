@@ -1,0 +1,142 @@
+Date : 2023-09-10 16:09:38
+Directory : d:\RECENT\校招\技术\Program\TinyRPC
+Total : 94 files,  7854 codes, 526 comments, 2834 blanks, all 11214 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| C++                |         78 |      6,084 |        390 |      2,285 |      8,759 |
+| Markdown           |          1 |        877 |         24 |        276 |      1,177 |
+| Python             |          1 |        468 |         17 |        123 |        608 |
+| Shell Script       |          7 |        235 |         27 |         62 |        324 |
+| Makefile           |          1 |         74 |         18 |         38 |        130 |
+| XML                |          2 |         64 |         21 |         28 |        113 |
+| YAML               |          1 |         21 |          6 |          8 |         35 |
+| Docker             |          1 |         17 |         10 |          9 |         36 |
+| JSON with Comments |          1 |          9 |         13 |          5 |         27 |
+| Properties         |          1 |          5 |          0 |          0 |          5 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                           | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                              |         94 |      7,854 |        526 |      2,834 |     11,214 |
+| . (Files)                                                                      |          3 |        968 |         43 |        320 |      1,331 |
+| .devcontainer                                                                  |          8 |        213 |         49 |         52 |        314 |
+| conf                                                                           |          2 |         64 |         21 |         28 |        113 |
+| generator                                                                      |          3 |        525 |         23 |        149 |        697 |
+| generator (Files)                                                              |          1 |        468 |         17 |        123 |        608 |
+| generator\template                                                             |          2 |         57 |          6 |         26 |         89 |
+| testcases                                                                      |          4 |        305 |          4 |        109 |        418 |
+| tinyrpc                                                                        |         74 |      5,779 |        386 |      2,176 |      8,341 |
+| tinyrpc\comm                                                                   |         16 |      1,321 |         44 |        469 |      1,834 |
+| tinyrpc\coroutine                                                              |          9 |        650 |        106 |        275 |      1,031 |
+| tinyrpc\net                                                                    |         49 |      3,808 |        236 |      1,432 |      5,476 |
+| tinyrpc\net (Files)                                                            |         14 |      1,257 |         70 |        459 |      1,786 |
+| tinyrpc\net\http                                                               |         10 |        471 |         46 |        183 |        700 |
+| tinyrpc\net\tcp                                                                |         13 |      1,250 |         84 |        484 |      1,818 |
+| tinyrpc\net\tinypb                                                             |         12 |        830 |         36 |        306 |      1,172 |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                       | language           | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| d:\RECENT\校招\技术\Program\TinyRPC\.devcontainer\.env                             | Properties         |          5 |          0 |          0 |          5 |
+| d:\RECENT\校招\技术\Program\TinyRPC\.devcontainer\Dockerfile                       | Docker             |         17 |         10 |          9 |         36 |
+| d:\RECENT\校招\技术\Program\TinyRPC\.devcontainer\devcontainer.json                | JSON with Comments |          9 |         13 |          5 |         27 |
+| d:\RECENT\校招\技术\Program\TinyRPC\.devcontainer\docker-compose.yml               | YAML               |         21 |          6 |          8 |         35 |
+| d:\RECENT\校招\技术\Program\TinyRPC\.devcontainer\install-mariadb.sh               | Shell Script       |        102 |         10 |         16 |        128 |
+| d:\RECENT\校招\技术\Program\TinyRPC\.devcontainer\install-protobuf.sh              | Shell Script       |         12 |          1 |          2 |         15 |
+| d:\RECENT\校招\技术\Program\TinyRPC\.devcontainer\reinstall-cmake.sh               | Shell Script       |         40 |          7 |         12 |         59 |
+| d:\RECENT\校招\技术\Program\TinyRPC\.devcontainer\tinyxml.sh                       | Shell Script       |          7 |          2 |          0 |          9 |
+| d:\RECENT\校招\技术\Program\TinyRPC\README.md                                      | Markdown           |        877 |         24 |        276 |      1,177 |
+| d:\RECENT\校招\技术\Program\TinyRPC\build.sh                                       | Shell Script       |         17 |          1 |          6 |         24 |
+| d:\RECENT\校招\技术\Program\TinyRPC\conf\test_http_server.xml                      | XML                |         27 |         10 |         14 |         51 |
+| d:\RECENT\校招\技术\Program\TinyRPC\conf\test_tinypb_server.xml                    | XML                |         37 |         11 |         14 |         62 |
+| d:\RECENT\校招\技术\Program\TinyRPC\generator\template\run.sh                      | Shell Script       |         29 |          4 |         13 |         46 |
+| d:\RECENT\校招\技术\Program\TinyRPC\generator\template\shutdown.sh                 | Shell Script       |         28 |          2 |         13 |         43 |
+| d:\RECENT\校招\技术\Program\TinyRPC\generator\tinyrpc_generator.py                 | Python             |        468 |         17 |        123 |        608 |
+| d:\RECENT\校招\技术\Program\TinyRPC\makefile                                       | Makefile           |         74 |         18 |         38 |        130 |
+| d:\RECENT\校招\技术\Program\TinyRPC\testcases\test_coroutine.cc                    | C++                |         67 |          0 |         26 |         93 |
+| d:\RECENT\校招\技术\Program\TinyRPC\testcases\test_http_server.cc                  | C++                |        148 |          0 |         46 |        194 |
+| d:\RECENT\校招\技术\Program\TinyRPC\testcases\test_tinypb_server.cc                | C++                |         62 |          4 |         24 |         90 |
+| d:\RECENT\校招\技术\Program\TinyRPC\testcases\test_tinypb_server_client.cc         | C++                |         28 |          0 |         13 |         41 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\config.cc                         | C++                |        220 |          0 |         60 |        280 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\config.h                          | C++                |         49 |          2 |         27 |         78 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\error_code.h                      | C++                |         21 |          3 |         12 |         36 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\log.cc                            | C++                |        337 |         12 |        109 |        458 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\log.h                             | C++                |        161 |          1 |         71 |        233 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\msg_req.cc                        | C++                |         50 |          2 |         11 |         63 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\msg_req.h                         | C++                |         10 |          0 |          8 |         18 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\mysql_instase.cc                  | C++                |        188 |         10 |         42 |        240 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\mysql_instase.h                   | C++                |         64 |          0 |         40 |        104 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\run_time.h                        | C++                |         11 |          0 |          6 |         17 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\start.cc                          | C++                |         44 |          3 |         15 |         62 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\start.h                           | C++                |         32 |          1 |         15 |         48 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\string_util.cc                    | C++                |         49 |          1 |         12 |         62 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\string_util.h                     | C++                |         15 |          6 |         10 |         31 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\thread_pool.cc                    | C++                |         44 |          3 |         16 |         63 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\comm\thread_pool.h                     | C++                |         26 |          0 |         15 |         41 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\coroutine\coctx.h                      | C++                |         18 |          1 |          9 |         28 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\coroutine\coroutine.cc                 | C++                |        133 |         31 |         50 |        214 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\coroutine\coroutine.h                  | C++                |         74 |          2 |         43 |        119 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\coroutine\coroutine_hook.cc            | C++                |        215 |         49 |         82 |        346 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\coroutine\coroutine_hook.h             | C++                |         27 |          0 |         24 |         51 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\coroutine\coroutine_pool.cc            | C++                |         61 |          6 |         21 |         88 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\coroutine\coroutine_pool.h             | C++                |         23 |          4 |         15 |         42 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\coroutine\memory.cc                    | C++                |         69 |         12 |         13 |         94 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\coroutine\memory.h                     | C++                |         30 |          1 |         18 |         49 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\abstract_codec.h                   | C++                |         22 |          0 |         15 |         37 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\abstract_data.h                    | C++                |         12 |          0 |          6 |         18 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\abstract_dispatcher.h              | C++                |         17 |          0 |         12 |         29 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\byte.h                             | C++                |         13 |          0 |          8 |         21 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\fd_event.cc                        | C++                |        153 |          3 |         45 |        201 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\fd_event.h                         | C++                |         63 |          0 |         42 |        105 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\http\http_codec.cc                 | C++                |        184 |          5 |         32 |        221 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\http\http_codec.h                  | C++                |         22 |          0 |         12 |         34 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\http\http_define.cc                | C++                |         46 |         19 |         20 |         85 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\http\http_define.h                 | C++                |         39 |         21 |         24 |         84 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\http\http_dispatcher.cc            | C++                |         42 |          0 |         14 |         56 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\http\http_dispatcher.h             | C++                |         18 |          0 |         13 |         31 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\http\http_request.h                | C++                |         22 |          0 |         13 |         35 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\http\http_response.h               | C++                |         19 |          0 |          9 |         28 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\http\http_servlet.cc               | C++                |         51 |          1 |         22 |         74 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\http\http_servlet.h                | C++                |         28 |          0 |         24 |         52 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\mutex.cc                           | C++                |         57 |          2 |         18 |         77 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\mutex.h                            | C++                |        178 |         11 |         42 |        231 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\net_address.cc                     | C++                |         95 |          3 |         26 |        124 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\net_address.h                      | C++                |         58 |          0 |         48 |        106 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\reactor.cc                         | C++                |        331 |         37 |         86 |        454 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\reactor.h                          | C++                |         70 |          4 |         45 |        119 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\abstract_slot.h                | C++                |         25 |          0 |         10 |         35 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\io_thread.cc                   | C++                |        152 |          9 |         45 |        206 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\io_thread.h                    | C++                |         56 |          4 |         41 |        101 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\tcp_buffer.cc                  | C++                |         96 |         17 |         37 |        150 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\tcp_buffer.h                   | C++                |         33 |          2 |         35 |         70 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\tcp_client.cc                  | C++                |        153 |          1 |         26 |        180 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\tcp_client.h                   | C++                |         55 |          3 |         28 |         86 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\tcp_connection.cc              | C++                |        257 |         23 |         68 |        348 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\tcp_connection.h               | C++                |         82 |          0 |         50 |        132 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\tcp_connection_time_wheel.cc   | C++                |         31 |          2 |         10 |         43 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\tcp_connection_time_wheel.h    | C++                |         26 |          0 |         20 |         46 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\tcp_server.cc                  | C++                |        211 |         23 |         60 |        294 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tcp\tcp_server.h                   | C++                |         73 |          0 |         54 |        127 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\timer.cc                           | C++                |        132 |          8 |         33 |        173 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\timer.h                            | C++                |         56 |          2 |         33 |         91 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_codec.cc             | C++                |        221 |         13 |         70 |        304 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_codec.h              | C++                |         18 |          4 |         16 |         38 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_data.h               | C++                |         30 |          6 |          9 |         45 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_rpc_async_channel.cc | C++                |        114 |          2 |         25 |        141 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_rpc_async_channel.h  | C++                |         51 |          2 |         26 |         79 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_rpc_channel.cc       | C++                |         89 |          2 |         17 |        108 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_rpc_channel.h        | C++                |         22 |          1 |         11 |         34 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_rpc_closure.h        | C++                |         22 |          0 |         12 |         34 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_rpc_controller.cc    | C++                |         68 |          0 |         24 |         92 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_rpc_controller.h     | C++                |         49 |          3 |         41 |         93 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_rpc_dispatcher.cc    | C++                |        123 |          0 |         37 |        160 |
+| d:\RECENT\校招\技术\Program\TinyRPC\tinyrpc\net\tinypb\tinypb_rpc_dispatcher.h     | C++                |         23 |          3 |         18 |         44 |
+| Total                                                                          |                    |      7,854 |        526 |      2,834 |     11,214 |
++--------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
